@@ -1,0 +1,98 @@
+.main1{
+    display: flex;
+    gap: 10px;
+    width: fit-content;
+}
+body{
+    background-color: cyan;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    background: linear-gradient(90deg, rgba(199,197,226,1) 0%, rgba(105,130,176,1) 40%, rgba(23,44,144,1) 100%);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: none;
+}
+div:hover{
+    background: transparent;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 0 0 5px white;
+}
+
+img{
+    flex-basis: 100%;
+}
+
+.section1{
+    overflow-x: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    position: relative;
+    
+}
+
+
+.active{
+    display: inline-block;
+}
+.flex{
+    display: flex;
+    
+}
+.header> h2{
+    position: relative;
+    background: linear-gradient(90deg, rgba(197,216,226,1) 0%, rgba(48,145,194,1) 40%, rgba(23,103,144,1) 100%);
+    top: 10px;
+    text-shadow: 0 0 5px white;
+    left: 0px;
+    color: white;
+    padding: 10px;
+    width: 10%;
+    text-align: center;
+}
+
+
+.label1{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 20px;
+  padding: 8px;
+  color: white;
+  font-size: 35px;
+  
+  
+  
+}
+
+.remove1{
+    border: 1px solid white;
+    background: linear-gradient(90deg, rgba(197,216,226,1) 0%, rgba(48,145,194,1) 40%, rgba(23,103,144,1) 100%);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 30%;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+    position: fixed;
+    padding: 10px;
+    text-shadow: 0 0 5px rgb(68, 6, 6);
+    border-radius: 10px;
+    
+}
+
