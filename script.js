@@ -62,13 +62,13 @@ function addHtml(data) {
     weather.innerText = data.weather;
     let temp = document.createElement('p')
     div.appendChild(temp)
-    temp.innerText = data.temp + "°C";
+    temp.innerHTML = '<i class="fa-solid fa-temperature-half"></i>'+" " + data.temp + "°C";
     let humidity = document.createElement('p')
     div.appendChild(humidity)
-    humidity.innerText = "humidité: " + data.humidity + "%";
+    humidity.innerHTML = '<i class="fa-solid fa-droplet"></i>'+" " + data.humidity + "%";
     let wind = document.createElement('p')
     div.appendChild(wind)
-    wind.innerText = "vent: " + data.wind;
+    wind.innerHTML = '<i class="fa-solid fa-wind"></i>'+" " + data.wind;
     let date = document.createElement('p')
     div.appendChild(date)
     date.innerText = data.date

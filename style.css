@@ -2,6 +2,7 @@
     display: flex;
     gap: 10px;
     width: fit-content;
+    padding-top: 100px;
 }
 body{
     background-color: cyan;
@@ -52,7 +53,7 @@ img{
 .header> h2{
     position: relative;
     background: linear-gradient(90deg, rgba(197,216,226,1) 0%, rgba(48,145,194,1) 40%, rgba(23,103,144,1) 100%);
-    top: 10px;
+    top: 800px;
     text-shadow: 0 0 5px white;
     left: 0px;
     color: white;
