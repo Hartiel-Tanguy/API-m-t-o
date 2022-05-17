@@ -11,7 +11,7 @@ body{
 }
 
 div{
-    background: linear-gradient(90deg, rgba(199,197,226,1) 0%, rgba(105,130,176,1) 40%, rgba(23,44,144,1) 100%);
+    background: linear-gradient(90deg, rgba(199,197,226,1) 0%, rgba(105,130,176,1) 40%, rgb(46, 53, 90) 100%);
     width: 300px;
     display: flex;
     flex-direction: column;
